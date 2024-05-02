@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.uiutils.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ChatScreenMixin",
+    "ClientConnectionMixin",
+    "HandledScreenMixin",
+    "MultiplayerScreenMixin",
+    "ScreenMixin",
+    "SignEditScreenMixin",
+    "SleepingChatScreenMixin",
+    "accessor.ClientConnectionAccessor",
+    "accessor.ScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
